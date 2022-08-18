@@ -7,7 +7,7 @@
       </q-card-section>
       <q-separator />
       <q-card-actions align="right">
-        <q-btn flat @click="requestData('all')">조회</q-btn>
+        <q-btn flat @click="requestData('all')">조회하기</q-btn>
       </q-card-actions>
     </q-card>
 
@@ -38,9 +38,9 @@
 <script setup lang="ts">
 import { getData } from 'src/helper/fetch.user';
 import { useQuasar } from 'quasar'
-import { useRouter } from 'vue-router';
+// import { useRouter } from 'vue-router';
 const $q = useQuasar()
-const router = useRouter();
+// const router = useRouter();
 async function requestData(data : string){
     try {
       const res = await getData( data );
@@ -60,7 +60,7 @@ async function requestData(data : string){
         icon: 'cloud_done',
         message: `No Roles : ${data} => ${error}`
       })
-      router.push({path:'/login'})
+      // router.push({path:'/login'})
     }
 
 }
