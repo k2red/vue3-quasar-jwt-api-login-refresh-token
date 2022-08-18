@@ -3,6 +3,8 @@
 A Vue3-Quasar Project
 JWT Server Login and refresh token Examples
 
+ - Pinia ( Vue Store ) composition api Style
+
 ## Install the dependencies
 ```bash
 yarn
