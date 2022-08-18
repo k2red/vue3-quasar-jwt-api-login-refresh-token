@@ -1,7 +1,8 @@
 # Vue3 Quasar
 A Vue3-Quasar
  - Pinia ( Vue Store ) Composition API Style
- - JWT Server Login and refresh token Examples
+ - JWT Server Login ( http://localhost:8000 )
+ - Refresh token Examples
 
 ## Install the dependencies
 ```bash
