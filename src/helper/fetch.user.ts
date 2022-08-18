@@ -1,6 +1,4 @@
-// import { axios } from 'boot/axios'
 import { api } from './api'
-// import { useAuthStore } from 'src/stores/auth.store'
 
 type LoginUserResponse = {
     token: string;
