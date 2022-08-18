@@ -1,9 +1,7 @@
-# Quasar App (quasar-project)
-
-A Vue3-Quasar Project
-JWT Server Login and refresh token Examples
-
- - Pinia ( Vue Store ) composition api Style
+# Vue3 Quasar
+A Vue3-Quasar
+ - Pinia ( Vue Store ) Composition API Style
+ - JWT Server Login and refresh token Examples
 
 ## Install the dependencies
 ```bash
