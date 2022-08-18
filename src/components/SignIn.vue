@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md" style="max-width: 400px">
-    <div>회원 로그인1</div>
+    <div>회원 로그인</div>
     <q-form
       @submit="onSubmit"
       @reset="onReset"
