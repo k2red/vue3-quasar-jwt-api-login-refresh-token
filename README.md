@@ -2,6 +2,7 @@
 A Vue3-Quasar
  - Pinia ( Vue Store ) Composition API Style
  - JWT Server Login ( http://localhost:8000 )
+   SpringBoot JWT Server Github ( https://github.com/k2red/spring-boot-jwt-vue3-quasar )
  - Refresh token Examples
 
 ## Install the dependencies
